@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACTO</title>
+    <link rel="stylesheet" href="stylos.css" />
+  </head>
+  <body class="bodyback">
+    
+    <header>
+      <img class="logo" src="imagenes/logo.png" width="100px" alt="Logo" />
+      <h1 id="texto"><ins>FORMULARIO DE CONTACTO</ins></h1>
+      <nav id="navigate">
+          <ul>
+              <li><a href="index.html" id="textoREF">INICIO</a></li>
+              <li><a href="contacto.html" target="_blank"  id="textoREF">CONTACTO</a></li>
+              <li><a href="multimedia.html" target="_blank"  id="textoREF">MULTIMEDIA</a></li>
+              <li><a href="#redes"  id="textoREF">REDES</a></li>
+          </ul>
+      </nav>
+  </header>  
+    <div id="formbody">
+      <form id="formulario">
+        <span>
+          Nombre:
+          <input
+            type="text"
+            name="nombre"
+            required
+            id="corrida1"
+            placeholder="NOMBRE APELLIDO"
+          />
+          <rep style="color: red">*</rep>
+        </span>
+        <br />
+        <span>
+          Dni:&nbsp;&nbsp;&nbsp;
+          <input
+            type="number"
+            name="dni"
+            max="99999999"
+            required
+            id="corrida2"
+            placeholder="DNI"
+          />
+          <rep style="color: red">*</rep>
+        </span>
+        <br />
+        <span>
+          Mail:
+          <input
+            type="email"
+            name="mail"
+            required
+            id="corrida3"
+            placeholder="MAIL"
+          />
+          <rep style="color: red">*</rep>
+        </span>
+        <br />
+        <span>
+          Edad:
+          <input
+            type="number"
+            name="edad"
+            required
+            id="corrida4"
+            placeholder="EDAD"
+          />
+          <rep style="color: red">*</rep>
+        </span>
+        <br />
+        <span>
+          Pais:
+          <select name="pais" required id="corrida5">
+            <option value="..." selected hidden>...</option>
+            <option value="Argentina">Argentina</option>
+            <option value="China">China</option>
+            <option value="Arabia">Arabia</option>
+          </select>
+          <rep style="color: red">*</rep>
+        </span>
+        <br />
+        <span>
+          Idiomas: Ingles<input type="checkbox" name="idiomas" value="ingles" />
+          Español<input type="checkbox" name="idiomas" value="español" />
+          Italiano<input type="checkbox" name="idiomas" value="italiano" />
+
+          <rep style="color: red">*</rep>
+        </span>
+        <br />
+        <button id="enviarformulario" id="corrida">Enviar</button>
+      </form>
+    </div>
+  <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br> <br><br>
+    <section id="redes">
+      <h2>Redes</h2>
+  
+      <div class="redes-container">
+          <div class="red-social">
+              <img src="imagenes/facebook-6062236_1280.png" alt="Facebook Logo">
+              <span>Facebook</span>
+          </div>
+  
+          <div class="red-social">
+              <img src="imagenes/twitter.png" alt="Twitter Logo">
+              <span>Twitter</span>
+          </div>
+  
+          <div class="red-social">
+              <img src="imagenes/instagram-6062238_1280.png" alt="Instagram Logo">
+              <span>Instagram</span>
+          </div>
+      </div>
+  
+  </section>
+  </body>
+</html>
